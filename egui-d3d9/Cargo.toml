@@ -14,7 +14,8 @@ edition = "2021"
 silent = []
 
 [dependencies]
-windows = { version = "0.59", features = [
+windows-numerics = "0.3.1"
+windows = { version = "0.62", features = [
 	"Win32_UI_Input_KeyboardAndMouse",
 	"Win32_System_WindowsProgramming",
 	"Win32_UI_WindowsAndMessaging",
@@ -33,6 +34,5 @@ windows = { version = "0.59", features = [
 ] }
 
 windows-registry = "0.4.0"
-
 clipboard = "0.5.0"
 egui = "0.31"
